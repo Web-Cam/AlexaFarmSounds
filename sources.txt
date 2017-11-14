@@ -1,0 +1,18 @@
+cow sound : https://freesound.org/people/Benboncan/sounds/58277/
+Chicken : https://freesound.org/people/esperar/sounds/170808/
+Dog : https://freesound.org/people/felix.blume/sounds/199261/
+Duck : https://freesound.org/people/Yudena/sounds/377563/
+Sheep : https://freesound.org/people/Gitanki/sounds/172712/
+rooster : https://freesound.org/people/InspectorJ/sounds/384188/
+cat : https://freesound.org/people/steffcaffrey/sounds/262313/
+horse : http://freesound.org/people/dobroide/sounds/18229/
+
+Sheep https://s3.amazonaws.com/alexafarmsounds/sheep.mp3
+cat https://s3.amazonaws.com/alexafarmsounds/Cat.mp3
+dog https://s3.amazonaws.com/alexafarmsounds/Dog.mp3
+https://s3.amazonaws.com/alexafarmsounds/Duck.mp3
+https://s3.amazonaws.com/alexafarmsounds/Rooster.mp3
+https://s3.amazonaws.com/alexafarmsounds/cow.mp3
+https://s3.amazonaws.com/alexafarmsounds/horse.mp3
+https://s3.amazonaws.com/alexafarmsounds/chicken.mp3
+
