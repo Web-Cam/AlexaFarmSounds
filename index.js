@@ -234,6 +234,38 @@ var handlers = { // Starting function once you say Start Farm Sounds
 	},
 	
 	
+	'SayLast': function(){ // If a user wants to repeat the sound, this is the switch statement
+	
+	switch (last){
+	case "dog":
+	this.emit(':ask',`${dog}`);
+	break;
+	case "cat":
+	this.emit(':ask',`${cat}`);
+	break;
+	case "chicken":
+	this.emit(':ask',`${chicken}`);
+	break;
+	case "rooster":
+	this.emit(':ask',`${rooster}`);
+	break;
+	case "cow":
+	this.emit(':ask',`${cow}`);
+	break;
+	case "horse":
+	this.emit(':ask',`${horse}`);
+	break;
+	case "goat":
+	this.emit(':ask',`${goat}`);
+	break;
+	case "duck":
+	this.emit(':ask',`${duck}`);
+	break;
+	default:
+	this.emit(':ask','Hmm I never gave you a previous sound'); // so we wont throw an error at beginning
+	}
+	},
+	
 	'SayRandom': function () {
      var lineIndex = Math.floor(Math.random() * randomanimal.length);
      var random = randomanimal[lineIndex];
