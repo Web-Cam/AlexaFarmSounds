@@ -1,7 +1,7 @@
-﻿'use strict';
+'use strict';
 var Alexa = require('alexa-sdk');
 
-var APP_ID = "amzn1.ask.skill.b8b4f1f0-a37e-4eba-9b29-a12993efa671"; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = ""; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 var SKILL_NAME = 'Farm Sounds';
 var sheep = '<audio src="https://s3.amazonaws.com/alexa/sheep.mp3"/>'; // Here are all the sounds, if you try to make your own remember to change rate to 16000 and 48kbs
 var dog = '<audio src="https://s3.amazonaws.com/alexa/Dog.mp3"/>';
